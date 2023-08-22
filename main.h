@@ -19,5 +19,6 @@ int print_x(va_list args);
 int print_X(va_list args);
 int print_S(va_list args);
 int print_p(va_list args);
+int handle_format(char format, va_list args);
 
 #endif /* MAIN_H */
